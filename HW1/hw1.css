@@ -1,0 +1,307 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.all{
+    width: 1240px;
+    height: 1754px;
+    background: #854e4b;
+    position: relative;
+}
+
+.contact{
+    color: bisque;
+    float: right;
+    line-height: 30px;
+    border: #f6ded4 3px solid;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contacthead{
+    border-bottom: bisque solid 3px;
+}
+
+.name{
+    background:#e9bba9 ;
+    width: 1200px;
+    height: 300px;
+    margin-left: 20px;
+    border-radius: 50px;
+    position: absolute;
+    top: 160px;
+    
+}
+
+img{
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    position: absolute;
+    left: 80px;
+    top: -100px;
+}
+
+.namedetail{
+    color: #854e4b;
+    position: absolute;
+    left: 450px;
+    top: 65px;
+    font-size: 70px;
+    line-height: 80px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.three {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:center;
+    position: absolute;
+    top: 500px;
+    width: 1024px;
+    left: 100px;
+    padding-left: 15px;
+}
+
+.info{
+    width: 410px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+.infoheader{
+    background: #f6ded4;
+    width: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    top: -30px; 
+    left: 90px;
+}
+
+.infoheader p{
+    padding-left: 30px;
+    color: #6C3A27;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.infocontent{
+    width: 390px;
+    height: 400px;
+    border-radius: 20px;
+    background: #e2af90;
+    font-size: 20px;
+    color: #6C3A27;
+    font-weight: bold;
+    line-height: 40px;
+    padding: 20px;
+    padding-top: 40px;
+   
+}
+.school{
+    width: 410px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+  
+}
+.schoolheader{
+    background: #f6ded4;
+    width: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    top: -30px; 
+    left: 90px;
+}
+.schoolheader p{
+    padding-left: 15px;
+    color: #6C3A27;
+    font-size: 30px;
+    font-weight: bold;
+}
+.schoolcontent{
+    width: 390px;
+    height: 400px;
+    border-radius: 20px;
+    background: #e2af90;
+    font-size: 20px;
+    color: #6C3A27;
+    font-weight: bold;
+    line-height: 40px;
+    padding: 20px;
+    padding-top: 40px;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    border-top: solid #6C3A27 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.skill{
+    width: 410px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+   
+}
+.skillheader{
+    background: #f6ded4;
+    width: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    top: -30px; 
+    left: 90px;
+}
+.skillheader p{
+    padding-left: 60px;
+    color: #6C3A27;
+    font-size: 30px;
+    font-weight: bold;
+}
+.skillcontent{
+    width: 390px;
+    height: 400px;
+    border-radius: 18px;
+    background: #e2af90;
+    font-size: 20px;
+    color: #6C3A27;
+    font-weight: bold;
+    line-height: 40px;
+    padding: 20px;
+    padding-top: 40px;
+    
+}
+.activity{
+    position: absolute;
+    top: 950px;
+    left: 50px;
+}
+.activityheader{
+    background: #f6ded4;
+    width: 180px;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: -25px; 
+    left: 460px;
+    font-size: 30px;
+    padding-left: 30px;
+    color: #6C3A27;
+    font-weight: bold;
+}
+table{
+    width: 1100px;
+    height: 600px;
+    border-collapse: separate;
+    table-layout: fixed;
+    border-radius: 10px;
+    border-spacing: 0;
+}
+
+table td{
+    border:solid #854e4b 3px;
+    background:#e2af90 ;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 30px;
+    font-size: 18px;
+    line-height: 35px;    
+    color: #854e4b;
+    font-weight: bold;
+}
+table td p{
+    font-weight: 900;
+    color: #854e4b;
+    background: blanchedalmond;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+.OB{
+    width: 200px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.leader{
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 110px;
+}
+.speech{
+    width: 310px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.SP{
+    width: 330px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer{
+    width: 1240px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    background:bisque;
+}
